@@ -1,0 +1,53 @@
+<section class="exchange-rates" id="rates">
+    <div class="container">
+        <h2 class="section-title">{{ i18n "rates_title" }}</h2>
+        <div class="rate-table">
+            <div class="rate-header">
+                <div>{{ i18n "card_type" }}</div>
+                <div>{{ i18n "rate" }} (₦/$)</div>
+            </div>
+
+            <div class="rate-row">
+                <div class="rate-card">
+                    <img src="{{ "images/steam.webp" | absURL }}" alt="Steam">
+                    <span>Steam</span>
+                </div>
+                <div class="rate-value">₦1355</div>
+            </div>
+
+            <div class="rate-row">
+                <div class="rate-card">
+                    <img src="{{ "images/itunes.webp" | absURL }}" alt="iTunes">
+                    <span>iTunes</span>
+                </div>
+                <div class="rate-value">₦1320</div>
+            </div>
+
+            <div class="rate-row">
+                <div class="rate-card">
+                    <img src="{{ "images/macys.webp" | absURL }}" alt="Amazon">
+                    <span>Amazon</span>
+                </div>
+                <div class="rate-value">₦1300</div>
+            </div>
+
+            <div class="rate-row">
+                <div class="rate-card">
+                    <img src="{{ "images/google-play.webp" | absURL }}" alt="Google Play">
+                    <span>Google Play</span>
+                </div>
+                <div class="rate-value">₦1280</div>
+            </div>
+
+            <div class="rate-row">
+                <div class="rate-card">
+                    <img src="{{ "images/sephora.webp" | absURL }}" alt="Sephora">
+                    <span>Sephora</span>
+                </div>
+                <div class="rate-value">₦1250</div>
+            </div>
+        </div>
+
+        <p class="update-time">{{ i18n "rates_updated" }}: {{ now.Format "2006-01-02 15:04" }}</p>
+    </div>
+</section>

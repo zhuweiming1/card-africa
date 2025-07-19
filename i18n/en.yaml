@@ -1,0 +1,113 @@
+- id: home
+  translation: "Home"
+
+- id: rates
+  translation: "Rates"
+
+- id: calculator
+  translation: "Calculator"
+
+- id: how_it_works
+  translation: "How It Works"
+
+- id: contact
+  translation: "Contact"
+
+- id: hero_title
+  translation: "Exchange Gift Cards for Instant Cash"
+
+- id: hero_subtitle
+  translation: "Best rates for Steam, iTunes, Amazon and more. Fast payments via bank transfer or mobile money."
+
+- id: get_started
+  translation: "Get Started on WhatsApp"
+
+- id: why_choose_us
+  translation: "Why Choose Us?"
+
+- id: feature1_title
+  translation: "Instant Payments"
+
+- id: feature1_item1
+  translation: "Receive payment within 5 minutes"
+
+- id: feature1_item2
+  translation: "Bank transfer, mobile money, or crypto"
+
+- id: feature1_item3
+  translation: "24/7 payment processing"
+
+- id: feature2_title
+  translation: "Secure Transactions"
+
+- id: feature2_item1
+  translation: "End-to-end encrypted communication"
+
+- id: feature2_item2
+  translation: "Verified payment methods"
+
+- id: feature2_item3
+  translation: "No personal information required"
+
+- id: feature3_title
+  translation: "Best Rates Guaranteed"
+
+- id: feature3_item1
+  translation: "Highest rates in the market"
+
+- id: feature3_item2
+  translation: "No hidden fees or commissions"
+
+- id: feature3_item3
+  translation: "Rate lock for large transactions"
+
+- id: rates_title
+  translation: "Current Exchange Rates"
+
+- id: card_type
+  translation: "Card Type"
+
+- id: rate
+  translation: "Rate"
+
+- id: rates_updated
+  translation: "Rates updated"
+
+- id: calculator_title
+  translation: "Calculate Your Exchange"
+
+- id: select_card
+  translation: "Select Card Type"
+
+- id: card_amount
+  translation: "Card Amount"
+
+- id: enter_amount
+  translation: "Enter amount in USD"
+
+- id: you_receive
+  translation: "You Receive"
+
+- id: calculate
+  translation: "Calculate"
+
+- id: enter_valid_amount
+  translation: "Please enter a valid amount"
+
+- id: quick_links
+  translation: "Quick Links"
+
+- id: faq
+  translation: "FAQ"
+
+- id: contact_us
+  translation: "Contact Us"
+
+- id: footer_description
+  translation: "The fastest and most reliable gift card exchange service in Africa. Trusted by thousands of customers."
+
+- id: all_rights_reserved
+  translation: "All rights reserved."
+
+- id: whatsapp_chat
+  translation: "Chat with us on WhatsApp"

@@ -1,0 +1,21 @@
+baseURL = "https://cardafrica.com/"
+languageCode = "en-us"
+title = "CardAfrica"
+theme = "introduction"
+
+[params]
+whatsapp = "2348123456789"  # 替换为实际WhatsApp号码
+email = "contact@cardafrica.com"
+phone = "+234 812 345 6789"
+address = "Lagos, Nigeria"
+
+[markup.goldmark.renderer]
+unsafe = true  # 允许原始HTML渲染
+
+[languages]
+[languages.en]
+weight = 1
+languageName = "English"
+
+[languages.en.params]
+slogan = "Instant Gift Card Exchange"

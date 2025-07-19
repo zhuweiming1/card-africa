@@ -1,0 +1,51 @@
+<footer id="contact">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>{{ .Site.Title }}</h3>
+                <p>{{ i18n "footer_description" }}</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>{{ i18n "quick_links" }}</h3>
+                <ul>
+                    <li><a href="#">{{ i18n "home" }}</a></li>
+                    <li><a href="#rates">{{ i18n "rates" }}</a></li>
+                    <li><a href="#calculator">{{ i18n "calculator" }}</a></li>
+                    <li><a href="#how-it-works">{{ i18n "how_it_works" }}</a></li>
+                    <li><a href="#">{{ i18n "faq" }}</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>{{ i18n "contact_us" }}</h3>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>{{ .Site.Params.address }}</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>{{ .Site.Params.phone }}</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>{{ .Site.Params.email }}</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>{{ .Site.Params.whatsapp }}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            &copy; {{ now.Format "2006" }} {{ .Site.Title }}. {{ i18n "all_rights_reserved" }}
+        </div>
+    </div>
+</footer>
